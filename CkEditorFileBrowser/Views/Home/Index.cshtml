@@ -1,0 +1,19 @@
+﻿@{
+	ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+	<h1 class="display-4">Welcome</h1>
+	<div>
+		@Html.TextArea("Content")
+	</div>
+</div>
+<script type="text/javascript" src="~/lib/jquery/dist/jquery.js"></script>
+<script type="text/javascript" src="js/ckeditor/ckeditor.js"></script>
+<script>
+	$(function () {
+		CKEDITOR.replace('Content', {
+			filebrowserBrowseUrl: '/ImageBrowser'
+		});
+	});
+</script>
