@@ -1,2 +1,2 @@
 # CkEditorFileBrowser
-CkEditorFileBrowser implemented in C#, MVC, .NET core 
+Custom CkEditorFileBrowser implemented in C#, MVC, .NET core 
